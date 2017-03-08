@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2CF40F4E1E6E348500D4308E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF40F4D1E6E348500D4308E /* AppDelegate.swift */; };
-		2CF40F501E6E348500D4308E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF40F4F1E6E348500D4308E /* FirstViewController.swift */; };
-		2CF40F521E6E348500D4308E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF40F511E6E348500D4308E /* SecondViewController.swift */; };
 		2CF40F551E6E348600D4308E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF40F531E6E348600D4308E /* Main.storyboard */; };
 		2CF40F571E6E348600D4308E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF40F561E6E348600D4308E /* Assets.xcassets */; };
 		2CF40F5A1E6E348600D4308E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF40F581E6E348600D4308E /* LaunchScreen.storyboard */; };
@@ -37,8 +35,6 @@
 /* Begin PBXFileReference section */
 		2CF40F4A1E6E348500D4308E /* DailyManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CF40F4D1E6E348500D4308E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CF40F4F1E6E348500D4308E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		2CF40F511E6E348500D4308E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2CF40F541E6E348600D4308E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CF40F561E6E348600D4308E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CF40F591E6E348600D4308E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,8 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				2CF40F4D1E6E348500D4308E /* AppDelegate.swift */,
-				2CF40F4F1E6E348500D4308E /* FirstViewController.swift */,
-				2CF40F511E6E348500D4308E /* SecondViewController.swift */,
 				2CF40F531E6E348600D4308E /* Main.storyboard */,
 				2CF40F561E6E348600D4308E /* Assets.xcassets */,
 				2CF40F581E6E348600D4308E /* LaunchScreen.storyboard */,
@@ -265,9 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CF40F521E6E348500D4308E /* SecondViewController.swift in Sources */,
 				2CF40F4E1E6E348500D4308E /* AppDelegate.swift in Sources */,
-				2CF40F501E6E348500D4308E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +510,7 @@
 				2CF40F761E6E348600D4308E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CF40F771E6E348600D4308E /* Build configuration list for PBXNativeTarget "DailyManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +519,7 @@
 				2CF40F791E6E348600D4308E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CF40F7A1E6E348600D4308E /* Build configuration list for PBXNativeTarget "DailyManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +528,7 @@
 				2CF40F7C1E6E348600D4308E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
