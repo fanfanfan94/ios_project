@@ -88,10 +88,10 @@
             </objects>
             <point key="canvasLocation" x="2119" y="522"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Act View Controller-->
         <scene sceneID="XDa-zc-S1s">
             <objects>
-                <viewController id="q4O-vR-nIs" sceneMemberID="viewController">
+                <viewController id="q4O-vR-nIs" customClass="AddActViewController" customModule="DailyManager" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="r1A-BG-gdC"/>
                         <viewControllerLayoutGuide type="bottom" id="Jvj-vr-V7T"/>

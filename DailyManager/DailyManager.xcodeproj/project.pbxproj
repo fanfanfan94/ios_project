@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C8D80521E7070FB00B053C9 /* AddActViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D80511E7070FB00B053C9 /* AddActViewController.swift */; };
+		2C8D80541E70717400B053C9 /* TaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D80531E70717400B053C9 /* TaskTableViewController.swift */; };
+		2C8D80561E70718100B053C9 /* MoneyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D80551E70718100B053C9 /* MoneyTableViewController.swift */; };
+		2C8D80581E70719500B053C9 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D80571E70719500B053C9 /* StatisticsViewController.swift */; };
+		2C8D805A1E7078C500B053C9 /* DataObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D80591E7078C500B053C9 /* DataObjects.swift */; };
 		2CF40F4E1E6E348500D4308E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF40F4D1E6E348500D4308E /* AppDelegate.swift */; };
 		2CF40F551E6E348600D4308E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF40F531E6E348600D4308E /* Main.storyboard */; };
 		2CF40F571E6E348600D4308E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF40F561E6E348600D4308E /* Assets.xcassets */; };
@@ -33,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C8D80511E7070FB00B053C9 /* AddActViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddActViewController.swift; sourceTree = "<group>"; };
+		2C8D80531E70717400B053C9 /* TaskTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewController.swift; sourceTree = "<group>"; };
+		2C8D80551E70718100B053C9 /* MoneyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyTableViewController.swift; sourceTree = "<group>"; };
+		2C8D80571E70719500B053C9 /* StatisticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		2C8D80591E7078C500B053C9 /* DataObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataObjects.swift; sourceTree = "<group>"; };
 		2CF40F4A1E6E348500D4308E /* DailyManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CF40F4D1E6E348500D4308E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CF40F541E6E348600D4308E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -100,6 +110,11 @@
 				2CF40F561E6E348600D4308E /* Assets.xcassets */,
 				2CF40F581E6E348600D4308E /* LaunchScreen.storyboard */,
 				2CF40F5B1E6E348600D4308E /* Info.plist */,
+				2C8D80511E7070FB00B053C9 /* AddActViewController.swift */,
+				2C8D80531E70717400B053C9 /* TaskTableViewController.swift */,
+				2C8D80551E70718100B053C9 /* MoneyTableViewController.swift */,
+				2C8D80571E70719500B053C9 /* StatisticsViewController.swift */,
+				2C8D80591E7078C500B053C9 /* DataObjects.swift */,
 			);
 			path = DailyManager;
 			sourceTree = "<group>";
@@ -259,7 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8D80561E70718100B053C9 /* MoneyTableViewController.swift in Sources */,
+				2C8D80581E70719500B053C9 /* StatisticsViewController.swift in Sources */,
+				2C8D80541E70717400B053C9 /* TaskTableViewController.swift in Sources */,
 				2CF40F4E1E6E348500D4308E /* AppDelegate.swift in Sources */,
+				2C8D805A1E7078C500B053C9 /* DataObjects.swift in Sources */,
+				2C8D80521E7070FB00B053C9 /* AddActViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
